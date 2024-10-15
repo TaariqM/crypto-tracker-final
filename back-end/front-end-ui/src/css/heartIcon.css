@@ -1,0 +1,26 @@
+.crypto-card-heart-icon {
+  padding: 10px 0px;
+  width: 50px;
+  text-align: center;
+  margin: 10px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  background-color: #1a1a1a;
+}
+
+.crypto-card-heart-icon:hover {
+  cursor: pointer;
+  border-color: #646cff;
+}
+
+.fa-heart {
+  font-size: 20px;
+  color: white;
+}
+
+.fa-heart.red {
+  font-size: 20px;
+  color: red;
+}

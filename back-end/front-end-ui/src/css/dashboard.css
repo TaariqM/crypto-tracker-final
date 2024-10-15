@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  background-color: rgb(51, 51, 51);
+  font-family: Arial, sans-serif;
+  height: 100%;
+}
+
+.dashboard-container {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  max-width: 100%;
+  min-height: 100vh;
+}
+
+.website-title {
+  text-align: center;
+  margin: 20px;
+  color: white;
+  font-size: 50px;
+}
+
+main {
+  flex: 1;
+}
+
+/* Mobile Sized Screens */
+@media only screen and (max-width: 768px) {
+  .website-title {
+    font-size: 25px;
+  }
+}

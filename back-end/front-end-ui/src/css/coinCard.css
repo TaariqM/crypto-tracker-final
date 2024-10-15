@@ -1,0 +1,58 @@
+.crypto-card {
+  background-color: rgb(66, 66, 66);
+  padding: 20px;
+  border-radius: 20px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+}
+
+.crypto-card:hover {
+  background-color: rgb(80, 80, 80);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.crypto-card-image {
+  display: flex;
+  justify-content: center;
+}
+
+.responsive-image {
+  width: 100px;
+  height: auto;
+  display: block;
+}
+
+.crypto-card-title {
+  color: rgb(225, 225, 225);
+  font-size: 30px;
+  text-align: center;
+  font-weight: bold;
+  padding: 10px 0;
+}
+
+.crypto-card > div > span {
+  color: rgb(225, 225, 225);
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.crypto-card > div {
+  color: rgb(225, 225, 225);
+  text-align: center;
+  line-height: 1.5;
+}
+
+/* Mobile Sized Screens */
+@media only screen and (max-width: 768px) {
+  .responsive-image {
+    width: 80px;
+    height: auto;
+    display: block;
+  }
+
+  .crypto-card-image {
+    display: flex;
+    justify-content: center;
+  }
+}

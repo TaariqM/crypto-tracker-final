@@ -1,0 +1,33 @@
+.watchlist-container {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  max-width: 100%;
+  min-height: 100vh;
+}
+
+.watchlist-title {
+  text-align: center;
+  margin: 20px;
+  color: white;
+  font-size: 50px;
+}
+
+main {
+  flex-grow: 1;
+}
+
+.crypto-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  margin: 30px;
+}
+
+/* Mobile Sized Screens */
+@media only screen and (max-width: 768px) {
+  .watchlist-title {
+    font-size: 25px;
+  }
+}

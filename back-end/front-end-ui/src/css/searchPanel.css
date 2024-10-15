@@ -1,0 +1,32 @@
+.searchBar-dropdown-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 10px;
+}
+
+.searchBar-input,
+.dropdown-menu select {
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.dropdown-menu select {
+  padding-right: 60px;
+}
+
+.btn {
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 10px;
+  background-color: rgb(104, 102, 102);
+  color: white;
+}
+
+/* Mobile Sized Screens */
+@media only screen and (max-width: 768px) {
+  .searchBar-dropdown-container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
