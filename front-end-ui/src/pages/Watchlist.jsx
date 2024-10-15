@@ -52,7 +52,9 @@ const Watchlist = () => {
       console.log("watchItems fetched");
 
       try {
-        const response = await axios.get("http://localhost:3000/api/watchlist");
+        const response = await axios.get(
+          "https://crypto-coin-tracker-6b75.onrender.com/api/watchlist"
+        );
         if (!response) {
           throw new Error("There was an error fetching watchlist");
         }

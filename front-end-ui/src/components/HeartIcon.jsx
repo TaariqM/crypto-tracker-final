@@ -34,7 +34,7 @@ const HeartIcon = (props) => {
 
     try {
       await axios.post(
-        `http://localhost:3000/api/watchlist?symbol=${props.tickerSymbol}`
+        `https://crypto-coin-tracker-6b75.onrender.com/api/watchlist?symbol=${props.tickerSymbol}`
       );
     } catch (error) {
       throw new Error(
@@ -48,7 +48,7 @@ const HeartIcon = (props) => {
 
     try {
       await axios.delete(
-        `http://localhost:3000/api/watchlist?symbol=${props.tickerSymbol}`
+        `https://crypto-coin-tracker-6b75.onrender.com/api/watchlist?symbol=${props.tickerSymbol}`
       );
     } catch (error) {
       throw new Error(

@@ -29,7 +29,9 @@ const CryptoDashboard = (props) => {
     console.log("fetching server data");
 
     try {
-      const response = await axios.get("http://localhost:3000/api/cryptocoins");
+      const response = await axios.get(
+        "https://crypto-coin-tracker-6b75.onrender.com/api/cryptocoins"
+      );
       if (response) {
         setCoinMarketCapData(response.data);
         setCoinData(response.data);
